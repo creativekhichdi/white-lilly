@@ -1032,7 +1032,7 @@ a[href*='tel'], a[href*='mailto'] {
 }
 
 .gallery-item:hover {
-	filter: grayscale(100%);
+	filter: grayscale(0%);
 	animation: all 1s ease-in-out;
 }
 
@@ -1114,7 +1114,7 @@ a[href*='tel'], a[href*='mailto'] {
 }
 
 .gallery-item:hover img {
-	opacity: .7;
+	opacity: 1;
 	transform: scale(1.05);
 }
 
@@ -13911,7 +13911,7 @@ html[class*="ie"] .dtp-hand, html[class*="ie"] .dtp-hour-hand {
 	width: auto;
 	height: auto;
 	position: relative;
-	display: inline-block;
+	display: flex;
 	margin: 0px;
 	filter: grayscale(0%);
 	transition: 0.5s;
@@ -13939,4 +13939,8 @@ html[class*="ie"] .dtp-hand, html[class*="ie"] .dtp-hour-hand {
 .banner-text img{
 	width: 300px;
 	float: left;
+}
+
+.border-line {
+	border: 2px solid #000;
 }
