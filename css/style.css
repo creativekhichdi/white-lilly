@@ -13944,3 +13944,8 @@ html[class*="ie"] .dtp-hand, html[class*="ie"] .dtp-hour-hand {
 .border-line {
 	border: 2px solid #000;
 }
+
+
+.main-banner{
+	background: url(../img/Main_banner.jpg);
+}
