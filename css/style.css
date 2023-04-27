@@ -13949,3 +13949,17 @@ html[class*="ie"] .dtp-hand, html[class*="ie"] .dtp-hour-hand {
 .main-banner{
 	background: url(../img/Main_banner.jpg);
 }
+
+@media (max-width: 420px) {
+	.slider-scale-effect .slide-bg {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		transition: 8.5s ease-out;
+		transform: scale(1.08);
+		background-size: cover;
+		will-change: transform;
+	}
+}
