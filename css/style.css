@@ -13973,7 +13973,7 @@ html[class*="ie"] .dtp-hand, html[class*="ie"] .dtp-hour-hand {
 	position: relative;
 }
 .right-side-design::before{
-	background: url(/img/bg-img/a20eb9ae5305faf77246224c437ccde6.png);
+	background: url(/img/bg-img/design2.gif);
 	background-size: 100% 100%;
 	content: '';
 	width: 30%;
@@ -13990,7 +13990,7 @@ html[class*="ie"] .dtp-hand, html[class*="ie"] .dtp-hour-hand {
 }
 
 .left-side-design::before{
-	background: url(/img/bg-img/bitrix-cdn-ru-upload-iblock-3f3-3f3bd71af62ef5d6faa636eee4372298-1000x1000.png);
+	background: url(/img/bg-img/design1.gif);
 	background-size: 100% 100%;
 	content: '';
 	width: 400px;
@@ -14005,7 +14005,7 @@ html[class*="ie"] .dtp-hand, html[class*="ie"] .dtp-hour-hand {
 	position: relative;
 }
 .left-bottom-design::before{
-	background: url(/img/bg-img/618673XSGeL._SL1080_.jpg);
+	background: url(/img/bg-img/design3.gif);
 	background-size: 100% 100%;
 	content: '';
 	width: 50%;
