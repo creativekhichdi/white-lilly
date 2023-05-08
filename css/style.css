@@ -14015,3 +14015,9 @@ html[class*="ie"] .dtp-hand, html[class*="ie"] .dtp-hour-hand {
 	left: 0;
 	position: absolute;
 }
+
+@media(max-width: 767px){
+	.right-side-design::before, .left-bottom-design::before, .left-side-design::before{
+		display: none;
+	}
+}
