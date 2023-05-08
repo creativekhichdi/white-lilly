@@ -13990,7 +13990,7 @@ html[class*="ie"] .dtp-hand, html[class*="ie"] .dtp-hour-hand {
 }
 
 .left-side-design::before{
-	background: url(/img/bg-img/design1.png);
+	background: url(/img/bg-img/bitrix-cdn-ru-upload-iblock-3f3-3f3bd71af62ef5d6faa636eee4372298-1000x1000.png);
 	background-size: 100% 100%;
 	content: '';
 	width: 400px;
