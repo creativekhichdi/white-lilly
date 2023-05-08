@@ -9428,6 +9428,11 @@ html.rd-navbar-fixed-linked .page {
 	height: auto;
 }
 
+.isotope-item img {
+	width: 100%;
+	height: auto;
+}
+
 .isotope-filters {
 	position: relative;
 }
@@ -13962,4 +13967,51 @@ html[class*="ie"] .dtp-hand, html[class*="ie"] .dtp-hour-hand {
 		background-size: cover;
 		will-change: transform;
 	}
+}
+
+.right-side-design{
+	position: relative;
+}
+.right-side-design::before{
+	background: url(/img/bg-img/design2.gif);
+	background-size: 100% 100%;
+	content: '';
+	width: 30%;
+	height: 80%;
+	transform: translate(5%, 17%);
+	bottom: 0;
+	right: 0;
+	position: absolute;
+}
+
+
+.left-side-design{
+	position: relative;
+}
+
+.left-side-design::before{
+	background: url(/img/bg-img/design1.gif);
+	background-size: 100% 100%;
+	content: '';
+	width: 400px;
+	height: 350px;
+	transform: translate(-120px, -27%);
+	top: 0;
+	left: 0;
+	position: absolute;
+}
+
+.left-bottom-design{
+	position: relative;
+}
+.left-bottom-design::before{
+	background: url(/img/bg-img/design3.gif);
+	background-size: 100% 100%;
+	content: '';
+	width: 50%;
+	height: 70%;
+	transform: translate(-20px, 8%);
+	bottom: 0;
+	left: 0;
+	position: absolute;
 }
