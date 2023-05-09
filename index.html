@@ -865,50 +865,7 @@
       </div>
     </section>
   </div>
-  <!-- Macy JS -->
-  <script src="https://cdn.jsdelivr.net/npm/macy@2"></script>
-  <script>
-    //Macy
-    var macy = Macy({
-      container: '#macy-container',
-      trueOrder: false,
-      waitForImages: false,
-      padding: 20,
-      columns: 3,
-      breakAt: {
-        1200: 3,
-        940: 3,
-        520: 1,
-        400: 1
-      }
-    });
-  </script>
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-  <!-- Magnific Popup -->
-  <script src="js/jquery.magnific-popup.js"></script>
-  <script>
-    $(document).ready(function () {
-      $('.image-popup').magnificPopup({
-        delegate: 'a',
-        type: 'image',
-        tLoading: 'Loading image #%curr%...',
-        mainClass: 'mfp-img-mobile',
-        gallery: {
-          enabled: true,
-          navigateByImgClick: true,
-          preload: [0, 1] // Will preload 0 - before current, and 1 after the current image
-        },
-        image: {
-          tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
-          titleSrc: function (item) {
-            return item.el.attr('title') + '<small>by Marsel Van Oosten</small>';
-          }
-        }
-      });
-    });
-  </script>
-  <!-- Global Mailform Output-->
-  <div class="snackbars" id="form-output-global"></div>
+  
   <!-- Javascript-->
   <script src="js/core.min.js"></script>
   <!-- JavaScript Bundle with Popper -->
