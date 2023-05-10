@@ -14016,6 +14016,35 @@ html[class*="ie"] .dtp-hand, html[class*="ie"] .dtp-hour-hand {
 	position: absolute;
 }
 
+.back-bg-design{
+	position: relative;
+}
+.back-bg-design::before {
+    background: url(https://creativekhichdi.github.io/white-lilly/img/bg-img/design4.gif);
+    background-size: 100% 100%;
+    content: '';
+    width: 50%;
+    height: 87%;
+    transform: translate(-90px, -56%);
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+.back-bg-design::after {
+    background: url(https://creativekhichdi.github.io/white-lilly/img/bg-img/design3.gif);
+    background-size: 100% 100%;
+    content: '';
+    width: 50%;
+    height: 70%;
+    transform: translate(153px, 38%);
+    bottom: 0;
+    z-index: 100000;
+    right: 0;
+    position: absolute;
+}
+
+
 @media(max-width: 767px){
 	.right-side-design::before, .left-bottom-design::before, .left-side-design::before{
 		display: none;
