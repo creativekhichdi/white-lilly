@@ -13973,7 +13973,7 @@ html[class*="ie"] .dtp-hand, html[class*="ie"] .dtp-hour-hand {
 	position: relative;
 }
 .right-side-design::before{
-	background: url(/img/bg-img/design2.gif);
+	background: url(https://creativekhichdi.github.io/white-lilly/img/bg-img/design2.gif);
 	background-size: 100% 100%;
 	content: '';
 	width: 30%;
@@ -13990,7 +13990,7 @@ html[class*="ie"] .dtp-hand, html[class*="ie"] .dtp-hour-hand {
 }
 
 .left-side-design::before{
-	background: url(/img/bg-img/design1.gif);
+	background: url(https://creativekhichdi.github.io/white-lilly/img/bg-img/design1.gif);
 	background-size: 100% 100%;
 	content: '';
 	width: 400px;
@@ -14005,13 +14005,19 @@ html[class*="ie"] .dtp-hand, html[class*="ie"] .dtp-hour-hand {
 	position: relative;
 }
 .left-bottom-design::before{
-	background: url(/img/bg-img/design3.gif);
+	background: url(https://creativekhichdi.github.io/white-lilly/img/bg-img/design3.gif);
 	background-size: 100% 100%;
 	content: '';
 	width: 50%;
 	height: 70%;
-	transform: translate(-20px, 8%);
+	transform: translate(-20px, 20%);
 	bottom: 0;
 	left: 0;
 	position: absolute;
+}
+
+@media(max-width: 767px){
+	.right-side-design::before, .left-bottom-design::before, .left-side-design::before{
+		display: none;
+	}
 }
