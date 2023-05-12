@@ -14020,27 +14020,28 @@ html[class*="ie"] .dtp-hand, html[class*="ie"] .dtp-hour-hand {
 	position: relative;
 }
 .back-bg-design::before {
-    background: url(https://creativekhichdi.github.io/white-lilly/img/bg-img/design4.gif);
+    background: url(/img/bg-img/design5.gif);
     background-size: 100% 100%;
     content: '';
     width: 50%;
     height: 87%;
-    transform: translate(-90px, -56%);
-    top: 0;
+    transform: translate(-126px, 19%);
+    bottom: 0;
     left: 0;
     position: absolute;
 }
 
 .back-bg-design::after {
-    background: url(https://creativekhichdi.github.io/white-lilly/img/bg-img/design3.gif);
+    background: url(/img/bg-img/design5.gif);
     background-size: 100% 100%;
     content: '';
     width: 50%;
-    height: 70%;
-    transform: translate(153px, 38%);
-    bottom: 0;
-    z-index: 100000;
-    right: 0;
+    height: 77%;
+    transform: translate(156px, -53%);
+    transform: rotate(178deg);
+    top: -116px;
+    z-index: -10;
+    right: -110px;
     position: absolute;
 }
 
