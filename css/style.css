@@ -14020,7 +14020,7 @@ html[class*="ie"] .dtp-hand, html[class*="ie"] .dtp-hour-hand {
 	position: relative;
 }
 .back-bg-design::before {
-    background: url(/img/bg-img/design5.gif);
+    background: url(https://creativekhichdi.github.io/white-lilly/img/bg-img/design5.gif);
     background-size: 100% 100%;
     content: '';
     width: 50%;
@@ -14032,7 +14032,7 @@ html[class*="ie"] .dtp-hand, html[class*="ie"] .dtp-hour-hand {
 }
 
 .back-bg-design::after {
-    background: url(/img/bg-img/design5.gif);
+    background: url(https://creativekhichdi.github.io/white-lilly/img/bg-img/design5.gif);
     background-size: 100% 100%;
     content: '';
     width: 50%;
