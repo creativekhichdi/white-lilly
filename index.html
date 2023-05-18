@@ -13,7 +13,8 @@
   <link rel="icon" href="images/favicon.ico" type="image/x-icon">
   <!-- Stylesheets-->
 
-  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300;400;500;700;900&amp;display=swap">
+  <link rel="stylesheet" type="text/css"
+    href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300;400;500;700;900&amp;display=swap">
   <!-- <link rel="stylesheet" type="text/css"
     href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300;400;500;700;900&amp;display=swap"> -->
   <!-- <link rel="preconnect" href="https://fonts.googleapis.com"> -->
@@ -44,7 +45,48 @@
   </div>
   <div class="page">
     <!-- Page Header-->
-    <header class="section bg-default section-xs-type-1 footer-minimal">
+    <!-- Page Header-->
+    <header class="section page-header">
+      <!-- RD Navbar-->
+      <div class="rd-navbar-wrap rd-navbar-wrap-absolute">
+        <nav class="rd-navbar rd-navbar-classic" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed"
+          data-md-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static"
+          data-lg-device-layout="rd-navbar-static" data-xl-layout="rd-navbar-static"
+          data-xl-device-layout="rd-navbar-static" data-lg-stick-up-offset="46px" data-xl-stick-up-offset="46px"
+          data-xxl-stick-up-offset="46px" data-lg-stick-up="true" data-xl-stick-up="true" data-xxl-stick-up="true">
+          <div class="rd-navbar-collapse-toggle rd-navbar-fixed-element-1" data-rd-navbar-toggle=".rd-navbar-collapse">
+            <span></span></div>
+          <div class="rd-navbar-main-outer">
+            <div class="rd-navbar-main">
+              <!-- RD Navbar Panel-->
+              <div class="rd-navbar-panel">
+                <!-- RD Navbar Toggle-->
+                <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
+                <!-- RD Navbar Brand-->
+                <div class="rd-navbar-brand"><a class="brand" href="index.html"><img class="brand-logo-dark"
+                      src="images/logo/logo.png" alt="" width="80px" /><img
+                      class="brand-logo-inverse" src="images/logo/logo.png" alt="" width="110px" /></a></div>
+              </div>
+              <div class="rd-navbar-main-element">
+                <div class="rd-navbar-nav-wrap">
+                  <!-- RD Navbar Nav-->
+                  <ul class="rd-navbar-nav">
+                    <li class="rd-nav-item active"><a class="rd-nav-link" href="index.html">Home</a></li>
+                    <li class="rd-nav-item"><a class="rd-nav-link" href="index.html#about">About</a></li>
+                    <li class="rd-nav-item"><a class="rd-nav-link" href="index.html#service">Services</a></li>
+                    <li class="rd-nav-item"><a class="rd-nav-link" href="index.html#portfolio">Portfolio</a></li>
+                    <li class="rd-nav-item"><a class="rd-nav-link" href="faq.html">FAQ</a></li>
+                    <!-- <li class="rd-nav-item"><a class="rd-nav-link" href="index.html#">Pages</a></li> -->
+                    <li class="rd-nav-item"><a class="rd-nav-link" href="contacts.html">Contact</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- <header class="section bg-default section-xs-type-1 footer-minimal">
       <div class="container">
         <div class="row row-30 align-items-lg-center justify-content-lg-between">
           <div class="col-lg-9">
@@ -55,14 +97,14 @@
                 <li class="rd-nav-item"><a class="rd-nav-link" href="index.html#service">Services</a></li>
                 <li class="rd-nav-item"><a class="rd-nav-link" href="index.html#portfolio">Portfolio</a></li>
                 <li class="rd-nav-item"><a class="rd-nav-link" href="faq.html">FAQ</a></li>
-                <!-- <li class="rd-nav-item"><a class="rd-nav-link" href="index.html#">Pages</a></li> -->
+                <li class="rd-nav-item"><a class="rd-nav-link" href="index.html#">Pages</a></li>
                 <li class="rd-nav-item"><a class="rd-nav-link" href="contacts.html">Contact</a></li>
               </ul>
             </div>
           </div>
         </div>
       </div>
-    </header>
+    </header> -->
     <!-- Swiper-->
 
 
@@ -95,7 +137,9 @@
     </section> -->
 
 
-    <section class="section swiper-container swiper-slider swiper-slider-1 slider-scale-effect bg-primary swiper-container-initialized swiper-container-horizontal" data-loop="false" data-autoplay="5500" data-simulate-touch="false" data-slide-effect="fade">
+    <section
+      class="section swiper-container swiper-slider swiper-slider-1 slider-scale-effect bg-primary swiper-container-initialized swiper-container-horizontal"
+      data-loop="false" data-autoplay="5500" data-simulate-touch="false" data-slide-effect="fade">
       <div class="swiper-wrapper">
         <div class="swiper-slide slide-bg-1">
           <div class="slide-bg main-banner"></div>
@@ -111,7 +155,8 @@
         </div>
       </div>
 
-    <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></section>
+      <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+    </section>
 
 
     <!-- <section class="section section-xl bg-image bg-mask" style="background-image:url(images/home-01-1920x662.png)">
@@ -137,19 +182,23 @@
                 <img src="images/overview-1-470x282.jpg" alt="" width="470" height="282" />
               </div>
               <div class="box-images-item box-images-without-border"
-                data-parallax-scroll="{&quot;y&quot;: 40,  &quot;smoothness&quot;: 30 }"><img
-                  src="img/rupertE.jpg" alt="" width="470" height="282" />
+                data-parallax-scroll="{&quot;y&quot;: 40,  &quot;smoothness&quot;: 30 }"><img src="img/rupertE.jpg"
+                  alt="" width="470" height="282" />
               </div>
             </div>
           </div>
           <div class="col-lg-6 ">
             <div class="block-xs ">
               <h2>The artist behind the craft</h2>
-              <p class="wow fadeInUp big text-gray-800" data-wow-duration="2s"  data-wow-delay="0.5s">The mantra that keeps me grounded as an artist <br>
-                "You're never done learning..."  <br><br></p>
+              <p class="wow fadeInUp big text-gray-800" data-wow-duration="2s" data-wow-delay="0.5s">The mantra that
+                keeps me grounded as an artist <br>
+                "You're never done learning..." <br><br></p>
 
-                <p class="wow fadeInUp" data-wow-duration="2s"  data-wow-delay="0.5s"></p>Customizing tattoos is my way of creating something unique and personal for my clients, which makes the whole process meaningful and extra special for them. Cover-ups/modification is my forte. The challenges, the stories and the priceless look on the clients’ face, is what excites me about the whole process of cover up tattoos.
-                </p>
+              <p class="wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.5s"></p>Customizing tattoos is my way of
+              creating something unique and personal for my clients, which makes the whole process meaningful and extra
+              special for them. Cover-ups/modification is my forte. The challenges, the stories and the priceless look
+              on the clients’ face, is what excites me about the whole process of cover up tattoos.
+              </p>
 
             </div>
           </div>
@@ -166,7 +215,8 @@
         <div class="row justify-content-center">
           <div class="col-md-9 col-lg-7">
             <h2>Signature Services</h2>
-            <p>Offering a wide variety of tattooing services for all our clients. Get set for a top-notch experience along with a 100% safe and sterile environment & equipment. </p>
+            <p>Offering a wide variety of tattooing services for all our clients. Get set for a top-notch experience
+              along with a 100% safe and sterile environment & equipment. </p>
           </div>
         </div>
         <div class="row icon-modern-list no-gutters">
@@ -234,7 +284,8 @@
     <section class="section section-lg bg-default text-center">
       <div class="container">
         <h2>Sneak Peek into What’s Coming Up</h2>
-        <p class="block-lg"> Be it the upcoming tours, new artists visiting the studio or new designs, keep your eyes peeled to know what's in store for you!</p>
+        <p class="block-lg"> Be it the upcoming tours, new artists visiting the studio or new designs, keep your eyes
+          peeled to know what's in store for you!</p>
       </div>
       <div class="container">
         <div class="row row-20">
@@ -250,22 +301,22 @@
           </div>
           <div class="col-md-4">
             <a href="upcoming.html#artist">
-            <div class="team-minimal">
-              <figure><img src="img/artist.jpg" alt="" width="370" height="370"></figure>
-              <div class="team-minimal-caption">
-                <h4 class="team-title"><a href="upcoming.html#artist">Artists</a></h4>
+              <div class="team-minimal">
+                <figure><img src="img/artist.jpg" alt="" width="370" height="370"></figure>
+                <div class="team-minimal-caption">
+                  <h4 class="team-title"><a href="upcoming.html#artist">Artists</a></h4>
+                </div>
               </div>
-            </div>
             </a>
           </div>
           <div class="col-md-4">
             <a href="upcoming.html#grab">
-            <div class="team-minimal">
-              <figure><img src="img/up-for-grab.jpg" alt="" width="370" height="370"></figure>
-              <div class="team-minimal-caption">
-                <h4 class="team-title"><a href="upcoming.html#grab">Up for grabs</a></h4>
+              <div class="team-minimal">
+                <figure><img src="img/up-for-grab.jpg" alt="" width="370" height="370"></figure>
+                <div class="team-minimal-caption">
+                  <h4 class="team-title"><a href="upcoming.html#grab">Up for grabs</a></h4>
+                </div>
               </div>
-            </div>
             </a>
           </div>
           <!-- <div class="col-12"><a class="button button-primary" href="our-team.html">View all team</a></div> -->
@@ -311,232 +362,277 @@
 
 
 
-              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="color all" data-wow-delay="0.5s" data-filter="b&g">
-                <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/IMG_2291.PNG"><img class="img-fluid"
-                    src="img/main-portfolio/IMG_2291.PNG" width="570" height="570" alt="" /></a>
+              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="color all"
+                data-wow-delay="0.5s" data-filter="b&g">
+                <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/IMG_2291.PNG"><img
+                    class="img-fluid" src="img/main-portfolio/IMG_2291.PNG" width="570" height="570" alt="" /></a>
               </div>
 
 
 
 
-              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="minimal " data-wow-delay="0.5s" data-filter="b&g">
+              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="minimal "
+                data-wow-delay="0.5s" data-filter="b&g">
                 <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/4.jpg"><img class="img-fluid"
                     src="img/main-portfolio/4.jpg" width="570" height="570" alt="" /></a>
               </div>
 
-              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="minimal B&W" data-wow-delay="0.5s" data-filter="b&g">
+              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="minimal B&W"
+                data-wow-delay="0.5s" data-filter="b&g">
                 <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/5.jpg"><img class="img-fluid"
                     src="img/main-portfolio/5.jpg" width="570" height="570" alt="" /></a>
               </div>
 
-              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="color all" data-wow-delay="0.5s" data-filter="b&g">
-                <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/IMG_2293.JPG"><img class="img-fluid"
-                    src="img/main-portfolio/IMG_2293.JPG" width="570" height="570" alt="" /></a>
+              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="color all"
+                data-wow-delay="0.5s" data-filter="b&g">
+                <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/IMG_2293.JPG"><img
+                    class="img-fluid" src="img/main-portfolio/IMG_2293.JPG" width="570" height="570" alt="" /></a>
               </div>
 
-              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="color all" data-wow-delay="0.5s" data-filter="b&g">
-                <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/IMG_2342.JPG"><img class="img-fluid"
-                    src="img/main-portfolio/IMG_2342.JPG" width="570" height="570" alt="" /></a>
+              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="color all"
+                data-wow-delay="0.5s" data-filter="b&g">
+                <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/IMG_2342.JPG"><img
+                    class="img-fluid" src="img/main-portfolio/IMG_2342.JPG" width="570" height="570" alt="" /></a>
               </div>
 
-              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="color all" data-wow-delay="0.5s" data-filter="b&g">
-                <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/IMG_2350.JPG"><img class="img-fluid"
-                    src="img/main-portfolio/IMG_2350.JPG" width="570" height="570" alt="" /></a>
+              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="color all"
+                data-wow-delay="0.5s" data-filter="b&g">
+                <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/IMG_2350.JPG"><img
+                    class="img-fluid" src="img/main-portfolio/IMG_2350.JPG" width="570" height="570" alt="" /></a>
               </div>
 
-              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="minimal " data-wow-delay="0.5s" data-filter="b&g">
+              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="minimal "
+                data-wow-delay="0.5s" data-filter="b&g">
                 <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/6.jpg"><img class="img-fluid"
                     src="img/main-portfolio/6.jpg" width="570" height="570" alt="" /></a>
               </div>
 
-              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="minimal " data-wow-delay="0.5s" data-filter="b&g">
+              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="minimal "
+                data-wow-delay="0.5s" data-filter="b&g">
                 <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/7.jpg"><img class="img-fluid"
                     src="img/main-portfolio/7.jpg" width="570" height="570" alt="" /></a>
               </div>
 
-              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="minimal " data-wow-delay="0.5s" data-filter="b&g">
+              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="minimal "
+                data-wow-delay="0.5s" data-filter="b&g">
                 <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/8.jpg"><img class="img-fluid"
                     src="img/main-portfolio/8.jpg" width="570" height="570" alt="" /></a>
               </div>
 
-              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="minimal " data-wow-delay="0.5s" data-filter="b&g">
+              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="minimal "
+                data-wow-delay="0.5s" data-filter="b&g">
                 <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/9.jpg"><img class="img-fluid"
                     src="img/main-portfolio/9.jpg" width="570" height="570" alt="" /></a>
               </div>
 
-              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="minimal " data-wow-delay="0.5s" data-filter="b&g">
+              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="minimal "
+                data-wow-delay="0.5s" data-filter="b&g">
                 <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/10.jpg"><img class="img-fluid"
                     src="img/main-portfolio/10.jpg" width="570" height="570" alt="" /></a>
               </div>
 
-              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="minimal B&W" data-wow-delay="0.5s" data-filter="b&g">
+              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="minimal B&W"
+                data-wow-delay="0.5s" data-filter="b&g">
                 <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/11.jpg"><img class="img-fluid"
                     src="img/main-portfolio/11.jpg" width="570" height="570" alt="" /></a>
               </div>
 
-              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="minimal" data-wow-delay="0.5s" data-filter="b&g">
+              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="minimal"
+                data-wow-delay="0.5s" data-filter="b&g">
                 <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/12.jpg"><img class="img-fluid"
                     src="img/main-portfolio/12.jpg" width="570" height="570" alt="" /></a>
               </div>
 
-              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="minimal" data-wow-delay="0.5s" data-filter="b&g">
+              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="minimal"
+                data-wow-delay="0.5s" data-filter="b&g">
                 <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/13.jpg"><img class="img-fluid"
                     src="img/main-portfolio/13.jpg" width="570" height="570" alt="" /></a>
               </div>
 
-              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="minimal" data-wow-delay="0.5s" data-filter="b&g">
+              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="minimal"
+                data-wow-delay="0.5s" data-filter="b&g">
                 <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/14.jpg"><img class="img-fluid"
                     src="img/main-portfolio/14.jpg" width="570" height="570" alt="" /></a>
               </div>
 
-              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="minimal" data-wow-delay="0.5s" data-filter="b&g">
+              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="minimal"
+                data-wow-delay="0.5s" data-filter="b&g">
                 <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/15.jpg"><img class="img-fluid"
                     src="img/main-portfolio/15.jpg" width="570" height="570" alt="" /></a>
               </div>
 
-              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="minimal" data-wow-delay="0.5s" data-filter="b&g">
+              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="minimal"
+                data-wow-delay="0.5s" data-filter="b&g">
                 <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/16.jpg"><img class="img-fluid"
                     src="img/main-portfolio/16.jpg" width="570" height="570" alt="" /></a>
               </div>
 
-              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="minimal" data-wow-delay="0.5s" data-filter="b&g">
+              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="minimal"
+                data-wow-delay="0.5s" data-filter="b&g">
                 <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/17.jpg"><img class="img-fluid"
                     src="img/main-portfolio/17.jpg" width="570" height="570" alt="" /></a>
               </div>
 
-              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="minimal" data-wow-delay="0.5s" data-filter="b&g">
+              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="minimal"
+                data-wow-delay="0.5s" data-filter="b&g">
                 <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/18.jpg"><img class="img-fluid"
                     src="img/main-portfolio/18.jpg" width="570" height="570" alt="" /></a>
               </div>
 
-              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="minimal" data-wow-delay="0.5s" data-filter="b&g">
+              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="minimal"
+                data-wow-delay="0.5s" data-filter="b&g">
                 <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/19.jpg"><img class="img-fluid"
                     src="img/main-portfolio/19.jpg" width="570" height="570" alt="" /></a>
               </div>
 
-              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="minimal" data-wow-delay="0.5s" data-filter="b&g">
+              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="minimal"
+                data-wow-delay="0.5s" data-filter="b&g">
                 <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/20.jpg"><img class="img-fluid"
                     src="img/main-portfolio/20.jpg" width="570" height="570" alt="" /></a>
               </div>
 
-              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="minimal" data-wow-delay="0.5s" data-filter="b&g">
+              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="minimal"
+                data-wow-delay="0.5s" data-filter="b&g">
                 <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/21.jpg"><img class="img-fluid"
                     src="img/main-portfolio/21.jpg" width="570" height="570" alt="" /></a>
               </div>
 
-              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="minimal" data-wow-delay="0.5s" data-filter="b&g">
+              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="minimal"
+                data-wow-delay="0.5s" data-filter="b&g">
                 <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/22.jpg"><img class="img-fluid"
                     src="img/main-portfolio/22.jpg" width="570" height="570" alt="" /></a>
               </div>
 
-              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="minimal" data-wow-delay="0.5s" data-filter="b&g">
+              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="minimal"
+                data-wow-delay="0.5s" data-filter="b&g">
                 <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/23.jpg"><img class="img-fluid"
                     src="img/main-portfolio/23.jpg" width="570" height="570" alt="" /></a>
               </div>
 
-              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="minimal" data-wow-delay="0.5s" data-filter="b&g">
+              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="minimal"
+                data-wow-delay="0.5s" data-filter="b&g">
                 <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/24.jpg"><img class="img-fluid"
                     src="img/main-portfolio/24.jpg" width="570" height="570" alt="" /></a>
               </div>
 
-              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="color all" data-wow-delay="0.5s" data-filter="b&g">
-                <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/IMG_2478.PNG"><img class="img-fluid"
-                    src="img/main-portfolio/IMG_2478.PNG" width="570" height="570" alt="" /></a>
+              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="color all"
+                data-wow-delay="0.5s" data-filter="b&g">
+                <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/IMG_2478.PNG"><img
+                    class="img-fluid" src="img/main-portfolio/IMG_2478.PNG" width="570" height="570" alt="" /></a>
               </div>
 
-              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="color all" data-wow-delay="0.5s" data-filter="b&g">
-                <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/IMG_3563.PNG"><img class="img-fluid"
-                    src="img/main-portfolio/IMG_3563.PNG" width="570" height="570" alt="" /></a>
+              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="color all"
+                data-wow-delay="0.5s" data-filter="b&g">
+                <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/IMG_3563.PNG"><img
+                    class="img-fluid" src="img/main-portfolio/IMG_3563.PNG" width="570" height="570" alt="" /></a>
               </div>
 
-              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="color all" data-wow-delay="0.5s" data-filter="b&g">
-                <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/IMG_3564.PNG"><img class="img-fluid"
-                    src="img/main-portfolio/IMG_3564.PNG" width="570" height="570" alt="" /></a>
+              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="color all"
+                data-wow-delay="0.5s" data-filter="b&g">
+                <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/IMG_3564.PNG"><img
+                    class="img-fluid" src="img/main-portfolio/IMG_3564.PNG" width="570" height="570" alt="" /></a>
               </div>
 
-              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="color all" data-wow-delay="0.5s" data-filter="b&g">
-                <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/IMG_3565.PNG"><img class="img-fluid"
-                    src="img/main-portfolio/IMG_3565.PNG" width="570" height="570" alt="" /></a>
+              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="color all"
+                data-wow-delay="0.5s" data-filter="b&g">
+                <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/IMG_3565.PNG"><img
+                    class="img-fluid" src="img/main-portfolio/IMG_3565.PNG" width="570" height="570" alt="" /></a>
               </div>
 
-              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="color all" data-wow-delay="0.5s" data-filter="b&g">
-                <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/IMG_3569.PNG"><img class="img-fluid"
-                    src="img/main-portfolio/IMG_3569.PNG" width="570" height="570" alt="" /></a>
+              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="color all"
+                data-wow-delay="0.5s" data-filter="b&g">
+                <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/IMG_3569.PNG"><img
+                    class="img-fluid" src="img/main-portfolio/IMG_3569.PNG" width="570" height="570" alt="" /></a>
               </div>
 
-              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="color all" data-wow-delay="0.5s" data-filter="b&g">
-                <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/IMG_3914.PNG"><img class="img-fluid"
-                    src="img/main-portfolio/IMG_3914.PNG" width="570" height="570" alt="" /></a>
+              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="color all"
+                data-wow-delay="0.5s" data-filter="b&g">
+                <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/IMG_3914.PNG"><img
+                    class="img-fluid" src="img/main-portfolio/IMG_3914.PNG" width="570" height="570" alt="" /></a>
               </div>
 
-              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="color all" data-wow-delay="0.5s" data-filter="b&g">
-                <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/IMG_3919.PNG"><img class="img-fluid"
-                    src="img/main-portfolio/IMG_3919.PNG" width="570" height="570" alt="" /></a>
+              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="color all"
+                data-wow-delay="0.5s" data-filter="b&g">
+                <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/IMG_3919.PNG"><img
+                    class="img-fluid" src="img/main-portfolio/IMG_3919.PNG" width="570" height="570" alt="" /></a>
               </div>
 
-              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="color all" data-wow-delay="0.5s" data-filter="b&g">
-                <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/IMG_4541.PNG"><img class="img-fluid"
-                    src="img/main-portfolio/IMG_4541.PNG" width="570" height="570" alt="" /></a>
+              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="color all"
+                data-wow-delay="0.5s" data-filter="b&g">
+                <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/IMG_4541.PNG"><img
+                    class="img-fluid" src="img/main-portfolio/IMG_4541.PNG" width="570" height="570" alt="" /></a>
               </div>
 
-              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="color " data-wow-delay="0.5s" data-filter="b&g">
-                <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/IMG_4571.PNG"><img class="img-fluid"
-                    src="img/main-portfolio/IMG_4571.PNG" width="570" height="570" alt="" /></a>
+              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="color "
+                data-wow-delay="0.5s" data-filter="b&g">
+                <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/IMG_4571.PNG"><img
+                    class="img-fluid" src="img/main-portfolio/IMG_4571.PNG" width="570" height="570" alt="" /></a>
               </div>
 
-              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="color " data-wow-delay="0.5s" data-filter="b&g">
-                <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/IMG_4684.PNG"><img class="img-fluid"
-                    src="img/main-portfolio/IMG_4684.PNG" width="570" height="570" alt="" /></a>
+              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="color "
+                data-wow-delay="0.5s" data-filter="b&g">
+                <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/IMG_4684.PNG"><img
+                    class="img-fluid" src="img/main-portfolio/IMG_4684.PNG" width="570" height="570" alt="" /></a>
               </div>
 
-              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="color " data-wow-delay="0.5s" data-filter="b&g">
-                <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/IMG_4726.PNG"><img class="img-fluid"
-                    src="img/main-portfolio/IMG_4726.PNG" width="570" height="570" alt="" /></a>
+              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="color "
+                data-wow-delay="0.5s" data-filter="b&g">
+                <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/IMG_4726.PNG"><img
+                    class="img-fluid" src="img/main-portfolio/IMG_4726.PNG" width="570" height="570" alt="" /></a>
               </div>
 
-              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="minimal " data-wow-delay="0.5s" data-filter="b&g">
-                <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/IMG_5641.PNG"><img class="img-fluid"
-                    src="img/main-portfolio/IMG_5641.PNG" width="570" height="570" alt="" /></a>
+              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="minimal "
+                data-wow-delay="0.5s" data-filter="b&g">
+                <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/IMG_5641.PNG"><img
+                    class="img-fluid" src="img/main-portfolio/IMG_5641.PNG" width="570" height="570" alt="" /></a>
               </div>
 
-              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="B&W " data-wow-delay="0.5s" data-filter="b&g">
-                <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/IMG_5790.PNG"><img class="img-fluid"
-                    src="img/main-portfolio/IMG_5790.PNG" width="570" height="570" alt="" /></a>
+              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="B&W "
+                data-wow-delay="0.5s" data-filter="b&g">
+                <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/IMG_5790.PNG"><img
+                    class="img-fluid" src="img/main-portfolio/IMG_5790.PNG" width="570" height="570" alt="" /></a>
               </div>
 
-              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="minimal " data-wow-delay="0.5s" data-filter="b&g">
-                <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/IMG_5860.PNG"><img class="img-fluid"
-                    src="img/main-portfolio/IMG_5860.PNG" width="570" height="570" alt="" /></a>
+              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="minimal "
+                data-wow-delay="0.5s" data-filter="b&g">
+                <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/IMG_5860.PNG"><img
+                    class="img-fluid" src="img/main-portfolio/IMG_5860.PNG" width="570" height="570" alt="" /></a>
               </div>
 
-              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="B&W " data-wow-delay="0.5s" data-filter="b&g">
-                <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/IMG_5962.PNG"><img class="img-fluid"
-                    src="img/main-portfolio/IMG_5962.PNG" width="570" height="570" alt="" /></a>
+              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="B&W "
+                data-wow-delay="0.5s" data-filter="b&g">
+                <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/IMG_5962.PNG"><img
+                    class="img-fluid" src="img/main-portfolio/IMG_5962.PNG" width="570" height="570" alt="" /></a>
               </div>
 
-              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="color " data-wow-delay="0.5s" data-filter="b&g">
-                <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/IMG_6030.PNG"><img class="img-fluid"
-                    src="img/main-portfolio/IMG_6030.PNG" width="570" height="570" alt="" /></a>
+              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="color "
+                data-wow-delay="0.5s" data-filter="b&g">
+                <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/IMG_6030.PNG"><img
+                    class="img-fluid" src="img/main-portfolio/IMG_6030.PNG" width="570" height="570" alt="" /></a>
               </div>
 
-              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="color " data-wow-delay="0.5s" data-filter="b&g">
-                <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/AfricaCoverUp.jpg"><img class="img-fluid"
-                    src="img/main-portfolio/AfricaCoverUp.jpg" width="570" height="570" alt="" /></a>
+              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="color "
+                data-wow-delay="0.5s" data-filter="b&g">
+                <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/AfricaCoverUp.jpg"><img
+                    class="img-fluid" src="img/main-portfolio/AfricaCoverUp.jpg" width="570" height="570" alt="" /></a>
               </div>
 
-              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="B&W " data-wow-delay="0.5s" data-filter="b&g">
-                <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/Anchor.jpg"><img class="img-fluid"
-                    src="img/main-portfolio/Anchor.jpg" width="570" height="570" alt="" /></a>
+              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="B&W "
+                data-wow-delay="0.5s" data-filter="b&g">
+                <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/Anchor.jpg"><img
+                    class="img-fluid" src="img/main-portfolio/Anchor.jpg" width="570" height="570" alt="" /></a>
               </div>
 
-              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="color " data-wow-delay="0.5s" data-filter="b&g">
-                <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/Astar.jpg"><img class="img-fluid"
-                    src="img/main-portfolio/Astar.jpg" width="570" height="570" alt="" /></a>
+              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="color "
+                data-wow-delay="0.5s" data-filter="b&g">
+                <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/Astar.jpg"><img
+                    class="img-fluid" src="img/main-portfolio/Astar.jpg" width="570" height="570" alt="" /></a>
               </div>
 
-              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="B&W " data-wow-delay="0.5s" data-filter="b&g">
-                <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/Atlas.jpg"><img class="img-fluid"
-                    src="img/main-portfolio/Atlas.jpg" width="570" height="570" alt="" /></a>
+              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="B&W "
+                data-wow-delay="0.5s" data-filter="b&g">
+                <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/Atlas.jpg"><img
+                    class="img-fluid" src="img/main-portfolio/Atlas.jpg" width="570" height="570" alt="" /></a>
               </div>
 
               <!-- <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="minimal " data-wow-delay="0.5s" data-filter="b&g">
@@ -554,199 +650,241 @@
                     src="img/main-portfolio/3.jpg" width="570" height="570" alt="" /></a>
               </div> -->
 
-              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="cover-up " data-wow-delay="0.5s" data-filter="b&g">
-                <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/Beckham.jpg"><img class="img-fluid"
-                    src="img/main-portfolio/Beckham.jpg" width="570" height="570" alt="" /></a>
+              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="cover-up "
+                data-wow-delay="0.5s" data-filter="b&g">
+                <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/Beckham.jpg"><img
+                    class="img-fluid" src="img/main-portfolio/Beckham.jpg" width="570" height="570" alt="" /></a>
               </div>
 
-              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="cover-up " data-wow-delay="0.5s" data-filter="b&g">
-                <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/BioMech.jpg"><img class="img-fluid"
-                    src="img/main-portfolio/BioMech.jpg" width="570" height="570" alt="" /></a>
+              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="cover-up "
+                data-wow-delay="0.5s" data-filter="b&g">
+                <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/BioMech.jpg"><img
+                    class="img-fluid" src="img/main-portfolio/BioMech.jpg" width="570" height="570" alt="" /></a>
               </div>
 
-              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="cover-up " data-wow-delay="0.5s" data-filter="b&g">
-                <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/BioMechLion.jpg"><img class="img-fluid"
-                    src="img/main-portfolio/BioMechLion.jpg" width="570" height="570" alt="" /></a>
+              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="cover-up "
+                data-wow-delay="0.5s" data-filter="b&g">
+                <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/BioMechLion.jpg"><img
+                    class="img-fluid" src="img/main-portfolio/BioMechLion.jpg" width="570" height="570" alt="" /></a>
               </div>
 
-              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="cover-up " data-wow-delay="0.5s" data-filter="b&g">
-                <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/Buddha.jpg"><img class="img-fluid"
-                    src="img/main-portfolio/Buddha.jpg" width="570" height="570" alt="" /></a>
+              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="cover-up "
+                data-wow-delay="0.5s" data-filter="b&g">
+                <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/Buddha.jpg"><img
+                    class="img-fluid" src="img/main-portfolio/Buddha.jpg" width="570" height="570" alt="" /></a>
               </div>
 
-              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="B&W " data-wow-delay="0.5s" data-filter="b&g">
-                <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/BuddhaB.jpg"><img class="img-fluid"
-                    src="img/main-portfolio/BuddhaB.jpg" width="570" height="570" alt="" /></a>
+              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="B&W "
+                data-wow-delay="0.5s" data-filter="b&g">
+                <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/BuddhaB.jpg"><img
+                    class="img-fluid" src="img/main-portfolio/BuddhaB.jpg" width="570" height="570" alt="" /></a>
               </div>
 
-              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="color " data-wow-delay="0.5s" data-filter="b&g">
-                <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/ButtFun.jpg"><img class="img-fluid"
-                    src="img/main-portfolio/ButtFun.jpg" width="570" height="570" alt="" /></a>
+              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="color "
+                data-wow-delay="0.5s" data-filter="b&g">
+                <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/ButtFun.jpg"><img
+                    class="img-fluid" src="img/main-portfolio/ButtFun.jpg" width="570" height="570" alt="" /></a>
               </div>
 
-              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="color " data-wow-delay="0.5s" data-filter="b&g">
-                <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/Capricon.jpg"><img class="img-fluid"
-                    src="img/main-portfolio/Capricon.jpg" width="570" height="570" alt="" /></a>
+              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="color "
+                data-wow-delay="0.5s" data-filter="b&g">
+                <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/Capricon.jpg"><img
+                    class="img-fluid" src="img/main-portfolio/Capricon.jpg" width="570" height="570" alt="" /></a>
               </div>
 
-              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="B&W " data-wow-delay="0.5s" data-filter="b&g">
-                <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/ChakraFace.jpg"><img class="img-fluid"
-                    src="img/main-portfolio/ChakraFace.jpg" width="570" height="570" alt="" /></a>
+              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="B&W "
+                data-wow-delay="0.5s" data-filter="b&g">
+                <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/ChakraFace.jpg"><img
+                    class="img-fluid" src="img/main-portfolio/ChakraFace.jpg" width="570" height="570" alt="" /></a>
               </div>
 
-              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="color " data-wow-delay="0.5s" data-filter="b&g">
-                <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/Chester.jpg"><img class="img-fluid"
-                    src="img/main-portfolio/Chester.jpg" width="570" height="570" alt="" /></a>
+              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="color "
+                data-wow-delay="0.5s" data-filter="b&g">
+                <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/Chester.jpg"><img
+                    class="img-fluid" src="img/main-portfolio/Chester.jpg" width="570" height="570" alt="" /></a>
               </div>
 
-              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="B&W " data-wow-delay="0.5s" data-filter="b&g">
-                <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/Christ.jpg"><img class="img-fluid"
-                    src="img/main-portfolio/Christ.jpg" width="570" height="570" alt="" /></a>
+              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="B&W "
+                data-wow-delay="0.5s" data-filter="b&g">
+                <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/Christ.jpg"><img
+                    class="img-fluid" src="img/main-portfolio/Christ.jpg" width="570" height="570" alt="" /></a>
               </div>
 
-              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="color " data-wow-delay="0.5s" data-filter="b&g">
-                <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/ChristCustom.jpg"><img class="img-fluid"
-                    src="img/main-portfolio/ChristCustom.jpg" width="570" height="570" alt="" /></a>
+              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="color "
+                data-wow-delay="0.5s" data-filter="b&g">
+                <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/ChristCustom.jpg"><img
+                    class="img-fluid" src="img/main-portfolio/ChristCustom.jpg" width="570" height="570" alt="" /></a>
               </div>
 
-              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="color " data-wow-delay="0.5s" data-filter="b&g">
-                <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/ColorQuil.jpg"><img class="img-fluid"
-                    src="img/main-portfolio/ColorQuil.jpg" width="570" height="570" alt="" /></a>
+              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="color "
+                data-wow-delay="0.5s" data-filter="b&g">
+                <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/ColorQuil.jpg"><img
+                    class="img-fluid" src="img/main-portfolio/ColorQuil.jpg" width="570" height="570" alt="" /></a>
               </div>
 
-              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="color " data-wow-delay="0.5s" data-filter="b&g">
-                <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/CompassR.jpg"><img class="img-fluid"
-                    src="img/main-portfolio/CompassR.jpg" width="570" height="570" alt="" /></a>
+              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="color "
+                data-wow-delay="0.5s" data-filter="b&g">
+                <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/CompassR.jpg"><img
+                    class="img-fluid" src="img/main-portfolio/CompassR.jpg" width="570" height="570" alt="" /></a>
               </div>
 
-              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="cover-up " data-wow-delay="0.5s" data-filter="b&g">
-                <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/CoverUpMermaid.jpg"><img class="img-fluid"
-                    src="img/main-portfolio/CoverUpMermaid.jpg" width="570" height="570" alt="" /></a>
+              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="cover-up "
+                data-wow-delay="0.5s" data-filter="b&g">
+                <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/CoverUpMermaid.jpg"><img
+                    class="img-fluid" src="img/main-portfolio/CoverUpMermaid.jpg" width="570" height="570" alt="" /></a>
               </div>
 
-              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="cover-up " data-wow-delay="0.5s" data-filter="b&g">
-                <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/DragonFly.jpg"><img class="img-fluid"
-                    src="img/main-portfolio/DragonFly.jpg" width="570" height="570" alt="" /></a>
+              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="cover-up "
+                data-wow-delay="0.5s" data-filter="b&g">
+                <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/DragonFly.jpg"><img
+                    class="img-fluid" src="img/main-portfolio/DragonFly.jpg" width="570" height="570" alt="" /></a>
               </div>
 
-              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="color " data-wow-delay="0.5s" data-filter="b&g">
-                <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/FirangiPani.jpg"><img class="img-fluid"
-                    src="img/main-portfolio/FirangiPani.jpg" width="570" height="570" alt="" /></a>
+              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="color "
+                data-wow-delay="0.5s" data-filter="b&g">
+                <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/FirangiPani.jpg"><img
+                    class="img-fluid" src="img/main-portfolio/FirangiPani.jpg" width="570" height="570" alt="" /></a>
               </div>
 
-              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="color " data-wow-delay="0.5s" data-filter="b&g">
-                <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/Fish.jpg"><img class="img-fluid"
-                    src="img/main-portfolio/Fish.jpg" width="570" height="570" alt="" /></a>
+              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="color "
+                data-wow-delay="0.5s" data-filter="b&g">
+                <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/Fish.jpg"><img
+                    class="img-fluid" src="img/main-portfolio/Fish.jpg" width="570" height="570" alt="" /></a>
               </div>
 
-              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="color " data-wow-delay="0.5s" data-filter="b&g">
-                <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/Flower.jpg"><img class="img-fluid"
-                    src="img/main-portfolio/Flower.jpg" width="570" height="570" alt="" /></a>
+              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="color "
+                data-wow-delay="0.5s" data-filter="b&g">
+                <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/Flower.jpg"><img
+                    class="img-fluid" src="img/main-portfolio/Flower.jpg" width="570" height="570" alt="" /></a>
               </div>
 
-              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="color " data-wow-delay="0.5s" data-filter="b&g">
-                <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/HanumanGod.jpg"><img class="img-fluid"
-                    src="img/main-portfolio/HanumanGod.jpg" width="570" height="570" alt="" /></a>
+              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="color "
+                data-wow-delay="0.5s" data-filter="b&g">
+                <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/HanumanGod.jpg"><img
+                    class="img-fluid" src="img/main-portfolio/HanumanGod.jpg" width="570" height="570" alt="" /></a>
               </div>
 
-              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="color " data-wow-delay="0.5s" data-filter="b&g">
-                <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/Hobby.jpg"><img class="img-fluid"
-                    src="img/main-portfolio/Hobby.jpg" width="570" height="570" alt="" /></a>
+              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="color "
+                data-wow-delay="0.5s" data-filter="b&g">
+                <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/Hobby.jpg"><img
+                    class="img-fluid" src="img/main-portfolio/Hobby.jpg" width="570" height="570" alt="" /></a>
               </div>
 
-              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="color " data-wow-delay="0.5s" data-filter="b&g">
-                <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/Kali.jpg"><img class="img-fluid"
-                    src="img/main-portfolio/Kali.jpg" width="570" height="570" alt="" /></a>
+              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="color "
+                data-wow-delay="0.5s" data-filter="b&g">
+                <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/Kali.jpg"><img
+                    class="img-fluid" src="img/main-portfolio/Kali.jpg" width="570" height="570" alt="" /></a>
               </div>
 
-              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="color " data-wow-delay="0.5s" data-filter="b&g">
-                <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/Koi.jpg"><img class="img-fluid"
-                    src="img/main-portfolio/Koi.jpg" width="570" height="570" alt="" /></a>
+              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="color "
+                data-wow-delay="0.5s" data-filter="b&g">
+                <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/Koi.jpg"><img
+                    class="img-fluid" src="img/main-portfolio/Koi.jpg" width="570" height="570" alt="" /></a>
               </div>
 
-              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="cover-up " data-wow-delay="0.5s" data-filter="b&g">
-                <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/Lily.jpg"><img class="img-fluid"
-                    src="img/main-portfolio/Lily.jpg" width="570" height="570" alt="" /></a>
+              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="cover-up "
+                data-wow-delay="0.5s" data-filter="b&g">
+                <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/Lily.jpg"><img
+                    class="img-fluid" src="img/main-portfolio/Lily.jpg" width="570" height="570" alt="" /></a>
               </div>
 
-              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="cover-up " data-wow-delay="0.5s" data-filter="b&g">
-                <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/LionCu.jpg"><img class="img-fluid"
-                    src="img/main-portfolio/LionCu.jpg" width="570" height="570" alt="" /></a>
+              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="cover-up "
+                data-wow-delay="0.5s" data-filter="b&g">
+                <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/LionCu.jpg"><img
+                    class="img-fluid" src="img/main-portfolio/LionCu.jpg" width="570" height="570" alt="" /></a>
               </div>
 
-              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="B&W " data-wow-delay="0.5s" data-filter="b&g">
-                <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/LordShiv.jpg"><img class="img-fluid"
-                    src="img/main-portfolio/LordShiv.jpg" width="570" height="570" alt="" /></a>
+              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="B&W "
+                data-wow-delay="0.5s" data-filter="b&g">
+                <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/LordShiv.jpg"><img
+                    class="img-fluid" src="img/main-portfolio/LordShiv.jpg" width="570" height="570" alt="" /></a>
               </div>
 
-              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="color " data-wow-delay="0.5s" data-filter="b&g">
-                <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/LordShiva.jpg"><img class="img-fluid"
-                    src="img/main-portfolio/LordShiva.jpg" width="570" height="570" alt="" /></a>
+              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="color "
+                data-wow-delay="0.5s" data-filter="b&g">
+                <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/LordShiva.jpg"><img
+                    class="img-fluid" src="img/main-portfolio/LordShiva.jpg" width="570" height="570" alt="" /></a>
               </div>
 
-              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="color " data-wow-delay="0.5s" data-filter="b&g">
-                <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/Lotus.jpg"><img class="img-fluid"
-                    src="img/main-portfolio/Lotus.jpg" width="570" height="570" alt="" /></a>
+              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="color "
+                data-wow-delay="0.5s" data-filter="b&g">
+                <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/Lotus.jpg"><img
+                    class="img-fluid" src="img/main-portfolio/Lotus.jpg" width="570" height="570" alt="" /></a>
               </div>
 
-              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="B&W " data-wow-delay="0.5s" data-filter="b&g">
-                <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/LotusOrnamental.jpg"><img class="img-fluid"
-                    src="img/main-portfolio/LotusOrnamental.jpg" width="570" height="570" alt="" /></a>
+              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="B&W "
+                data-wow-delay="0.5s" data-filter="b&g">
+                <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/LotusOrnamental.jpg"><img
+                    class="img-fluid" src="img/main-portfolio/LotusOrnamental.jpg" width="570" height="570"
+                    alt="" /></a>
               </div>
 
-              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="B&W " data-wow-delay="0.5s" data-filter="b&g">
-                <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/Mandala1.jpg"><img class="img-fluid"
-                    src="img/main-portfolio/Mandala1.jpg" width="570" height="570" alt="" /></a>
+              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="B&W "
+                data-wow-delay="0.5s" data-filter="b&g">
+                <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/Mandala1.jpg"><img
+                    class="img-fluid" src="img/main-portfolio/Mandala1.jpg" width="570" height="570" alt="" /></a>
               </div>
 
-              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="color " data-wow-delay="0.5s" data-filter="b&g">
-                <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/MandalaColor.jpg"><img class="img-fluid"
-                    src="img/main-portfolio/MandalaColor.jpg" width="570" height="570" alt="" /></a>
+              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="color "
+                data-wow-delay="0.5s" data-filter="b&g">
+                <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/MandalaColor.jpg"><img
+                    class="img-fluid" src="img/main-portfolio/MandalaColor.jpg" width="570" height="570" alt="" /></a>
               </div>
 
-              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="B&W " data-wow-delay="0.5s" data-filter="b&g">
-                <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/Meditation.jpg"><img class="img-fluid"
-                    src="img/main-portfolio/Meditation.jpg" width="570" height="570" alt="" /></a>
+              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="B&W "
+                data-wow-delay="0.5s" data-filter="b&g">
+                <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/Meditation.jpg"><img
+                    class="img-fluid" src="img/main-portfolio/Meditation.jpg" width="570" height="570" alt="" /></a>
               </div>
 
-              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="B&W " data-wow-delay="0.5s" data-filter="b&g">
-                <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/Mermaid.jpg"><img class="img-fluid"
-                    src="img/main-portfolio/Mermaid.jpg" width="570" height="570" alt="" /></a>
+              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="B&W "
+                data-wow-delay="0.5s" data-filter="b&g">
+                <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/Mermaid.jpg"><img
+                    class="img-fluid" src="img/main-portfolio/Mermaid.jpg" width="570" height="570" alt="" /></a>
               </div>
 
-              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="cover-up " data-wow-delay="0.5s" data-filter="b&g">
-                <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/MermaidA.jpg"><img class="img-fluid"
-                    src="img/main-portfolio/MermaidA.jpg" width="570" height="570" alt="" /></a>
+              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="cover-up "
+                data-wow-delay="0.5s" data-filter="b&g">
+                <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/MermaidA.jpg"><img
+                    class="img-fluid" src="img/main-portfolio/MermaidA.jpg" width="570" height="570" alt="" /></a>
               </div>
 
-              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="color " data-wow-delay="0.5s" data-filter="b&g">
-                <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/Natraja.jpg"><img class="img-fluid"
-                    src="img/main-portfolio/Natraja.jpg" width="570" height="570" alt="" /></a>
+              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="color "
+                data-wow-delay="0.5s" data-filter="b&g">
+                <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/Natraja.jpg"><img
+                    class="img-fluid" src="img/main-portfolio/Natraja.jpg" width="570" height="570" alt="" /></a>
               </div>
 
-              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="color " data-wow-delay="0.5s" data-filter="b&g">
-                <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/OldSchoolAnchor.jpg"><img class="img-fluid"
-                    src="img/main-portfolio/OldSchoolAnchor.jpg" width="570" height="570" alt="" /></a>
+              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="color "
+                data-wow-delay="0.5s" data-filter="b&g">
+                <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/OldSchoolAnchor.jpg"><img
+                    class="img-fluid" src="img/main-portfolio/OldSchoolAnchor.jpg" width="570" height="570"
+                    alt="" /></a>
               </div>
 
-              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="color " data-wow-delay="0.5s" data-filter="b&g">
-                <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/OldSchoolGypsy.jpg"><img class="img-fluid"
-                    src="img/main-portfolio/OldSchoolGypsy.jpg" width="570" height="570" alt="" /></a>
+              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="color "
+                data-wow-delay="0.5s" data-filter="b&g">
+                <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/OldSchoolGypsy.jpg"><img
+                    class="img-fluid" src="img/main-portfolio/OldSchoolGypsy.jpg" width="570" height="570" alt="" /></a>
               </div>
 
-              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="B&W " data-wow-delay="0.5s" data-filter="b&g">
-                <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/OldSchoolSwallow.jpg"><img class="img-fluid"
-                    src="img/main-portfolio/OldSchoolSwallow.jpg" width="570" height="570" alt="" /></a>
+              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="B&W "
+                data-wow-delay="0.5s" data-filter="b&g">
+                <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/OldSchoolSwallow.jpg"><img
+                    class="img-fluid" src="img/main-portfolio/OldSchoolSwallow.jpg" width="570" height="570"
+                    alt="" /></a>
               </div>
 
-              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="color " data-wow-delay="0.5s" data-filter="b&g">
-                <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/OldSchoolTiger.jpg"><img class="img-fluid"
-                    src="img/main-portfolio/OldSchoolTiger.jpg" width="570" height="570" alt="" /></a>
+              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="color "
+                data-wow-delay="0.5s" data-filter="b&g">
+                <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/OldSchoolTiger.jpg"><img
+                    class="img-fluid" src="img/main-portfolio/OldSchoolTiger.jpg" width="570" height="570" alt="" /></a>
               </div>
 
-              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="B&W " data-wow-delay="0.5s" data-filter="b&g">
-                <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/OrnamentalLion.jpg"><img class="img-fluid"
-                    src="img/main-portfolio/OrnamentalLion.jpg" width="570" height="570" alt="" /></a>
+              <div class="col-sm-6 col-lg-4 col-md-4 isotope-item wow animate__fadeInUp" data-filter="B&W "
+                data-wow-delay="0.5s" data-filter="b&g">
+                <a class="gallery-item" data-lightgallery="item" href="img/main-portfolio/OrnamentalLion.jpg"><img
+                    class="img-fluid" src="img/main-portfolio/OrnamentalLion.jpg" width="570" height="570" alt="" /></a>
               </div>
 
 
@@ -777,7 +915,8 @@
         <div class="row justify-content-center left-side-design">
           <div class="col-md-10 col-xl-9">
             <h2>Get in touch</h2>
-            <p class="text-contrast">Got an idea for a tattoo or piercing? Let’s discuss it, and create magic together.</p>
+            <p class="text-contrast">Got an idea for a tattoo or piercing? Let’s discuss it, and create magic together.
+            </p>
           </div>
         </div>
         <div class="row justify-content-center">
@@ -880,13 +1019,14 @@
           <div class="col-lg-6">
             <div class="block-xs">
               <h2>Words of Delight </h2>
-              <p class="big text-gray-800">My clients have been my biggest ambassadors. Presenting a few messages that remains memorable.</p>
+              <p class="big text-gray-800">My clients have been my biggest ambassadors. Presenting a few messages that
+                remains memorable.</p>
             </div>
           </div>
           <div class="col-lg-6">
             <!-- Owl Carousel-->
-            <div class="owl-carousel carousel-corporate back-bg-design" data-items="1" data-dots="false" data-nav="false"
-              data-stage-padding="10px" data-loop="true" data-autoplay="true" data-margin="25px"
+            <div class="owl-carousel carousel-corporate back-bg-design" data-items="1" data-dots="false"
+              data-nav="false" data-stage-padding="10px" data-loop="true" data-autoplay="true" data-margin="25px"
               data-mouse-drag="false">
               <div class="quote-corporate ">
                 <div class="quote-header">
@@ -894,7 +1034,11 @@
                 </div>
                 <div class="quote-body">
                   <div class="quote-text">
-                    <p>Rupert is a true professional and completely passionate about his art. The entire experience has been truly spectacular. He focuses on the intent and vision behind the tattoo and translates it beautifully through his art. He is extremely considerate about the anxiety of first timers and the entire process is almost painless. No after tattoo issues experienced. Thank you for being the best</p>
+                    <p>Rupert is a true professional and completely passionate about his art. The entire experience has
+                      been truly spectacular. He focuses on the intent and vision behind the tattoo and translates it
+                      beautifully through his art. He is extremely considerate about the anxiety of first timers and the
+                      entire process is almost painless. No after tattoo issues experienced. Thank you for being the
+                      best</p>
                   </div>
                   <svg class="quote-body-mark" version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
                     width="66px" height="49px" viewbox="0 0 66 49" enable-background="new 0 0 66 49"
@@ -914,7 +1058,10 @@
                 </div>
                 <div class="quote-body">
                   <div class="quote-text">
-                    <p>First tattoo of my life, it makes you nervous, bring alot of questions with fear. Rupert was kind enough to listen to my thought process of the design, very mindful about various things. I had a design in mind, it was indeed a difficult tattoo, Rupert made it seemlessly and it came out perfect! His hospitality was cherry on the cake. I would highly recommend it.</p>
+                    <p>First tattoo of my life, it makes you nervous, bring alot of questions with fear. Rupert was kind
+                      enough to listen to my thought process of the design, very mindful about various things. I had a
+                      design in mind, it was indeed a difficult tattoo, Rupert made it seemlessly and it came out
+                      perfect! His hospitality was cherry on the cake. I would highly recommend it.</p>
                   </div>
                   <svg class="quote-body-mark" version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
                     width="66px" height="49px" viewbox="0 0 66 49" enable-background="new 0 0 66 49"
@@ -934,7 +1081,10 @@
                 </div>
                 <div class="quote-body">
                   <div class="quote-text">
-                    <p>Rupert is one of the loveliest artists I've had the chance to meet. I enjoyed his style of working from the get go. He's honest and doesn't shy away from advising what he considers is the best for his clients. He's really good at designing customised pieces. I love my tattoo and it's the best tattoo of mine till date. Here's to more tattoos by Rupert in the future!</p>
+                    <p>Rupert is one of the loveliest artists I've had the chance to meet. I enjoyed his style of
+                      working from the get go. He's honest and doesn't shy away from advising what he considers is the
+                      best for his clients. He's really good at designing customised pieces. I love my tattoo and it's
+                      the best tattoo of mine till date. Here's to more tattoos by Rupert in the future!</p>
                   </div>
                   <svg class="quote-body-mark" version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
                     width="66px" height="49px" viewbox="0 0 66 49" enable-background="new 0 0 66 49"
