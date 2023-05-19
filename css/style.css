@@ -6639,9 +6639,9 @@ html.tablet .ui-to-top {
 .rd-navbar-static .rd-nav-link {
 	position: relative;
 	display: inline-block;
-	font-family: 'Montserrat';
+	/* font-family: 'Montserrat'; */
 	color: #151515;
-	font-size: 20px;
+	font-size: 18px;
 	line-height: 1.2;
 	transition: .25s;
 	letter-spacing: 0.05em;
@@ -8137,10 +8137,10 @@ html.rd-navbar-fixed-linked .page {
 .rd-navbar-wrap-absolute .rd-navbar-classic.rd-navbar-static:not(.rd-navbar--is-stuck) .brand-logo-inverse {
 	display: block;
     position: absolute;
-    padding: 15px;
+    /* padding: 15px; */
     top: 10px;
     /* border-radius: 0 0 30px 30px; */
-    border: 2px solid #fff;
+    /* border: 2px solid #fff; */
 }
 
 /**
@@ -14034,7 +14034,7 @@ html[class*="ie"] .dtp-hand, html[class*="ie"] .dtp-hour-hand {
 	position: relative;
 }
 .back-bg-design::before {
-    background: url(https://creativekhichdi.github.io/white-lilly/img/bg-img/design5.gif);
+    background: url(/img/bg-img/design5.gif);
     background-size: 100% 100%;
     content: '';
     width: 50%;
@@ -14046,7 +14046,7 @@ html[class*="ie"] .dtp-hand, html[class*="ie"] .dtp-hour-hand {
 }
 
 .back-bg-design::after {
-    background: url(https://creativekhichdi.github.io/white-lilly/img/bg-img/design5.gif);
+    background: url(/img/bg-img/design5.gif);
     background-size: 100% 100%;
     content: '';
     width: 50%;
@@ -14065,3 +14065,51 @@ html[class*="ie"] .dtp-hand, html[class*="ie"] .dtp-hour-hand {
 		display: none;
 	}
 }
+
+
+
+/* ---------------FAQ------------------------ */
+
+
+.wrapper {
+	background-color: #ffffff;
+	padding: 10px 20px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+	-webkit-box-shadow: 0 15px 25px rgba(0, 0, 50, 0.2);
+	box-shadow: 0 15px 25px rgba(0, 0, 50, 0.2);
+  }
+
+.toggle {
+	width: 100%;
+	background-color: transparent;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	font-size: 18px;
+	color: #111130;
+	font-weight: 600;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	padding: 10px 0;
+  }
+  .content {
+	position: relative;
+	font-size: 16px;
+	text-align: justify;
+	line-height: 30px;
+	height: 0;
+	overflow: hidden;
+	-webkit-transition: all 1s;
+	-o-transition: all 1s;
+	transition: all 1s;
+  }
+
+/* ----------------------FAQ-END--------------------------- */
